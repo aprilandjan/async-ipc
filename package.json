@@ -1,0 +1,17 @@
+{
+  "name": "async-ipc",
+  "version": "1.0.0",
+  "description": "wrap event based ipc into async calls",
+  "main": "index.js",
+  "author": "merlinye <merlin.ye@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w",
+    "test": "jest",
+    "test:cov": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "typescript": "^4.0.2"
+  }
+}
